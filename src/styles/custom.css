@@ -1,0 +1,23 @@
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.icon-font{
+    font-size: 20px;
+}
+
+.first-name{
+        width: 50%;float: left;padding-right: 3px;
+}
+
+.last-name{
+    width: 50%;float: right;padding-left: 3px;
+}
+
+.error.field{
+    border-color: red;
+}
+
+.selected-chkbox{
+    background-color: #fff000
+}

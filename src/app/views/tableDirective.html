@@ -1,0 +1,27 @@
+<div>
+    <!--<div class="panel-heading"><b>Table directive<span class="pull-right cursor-pointer"><i class="fa fa-share-alt"></i> Share</span></b></div>-->
+    <!--<div class="panel-heading"><b>Employee List<span class="pull-right cursor-pointer" ng-click="addNew()"><i class="fa fa-user fa-2x" aria-hidden="true"></i> Add Employee</span></b></div>-->
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr class="cursor-pointer">
+                <th></th>
+                <th ng-repeat="column in columnHeaders" ng-click="vm.getSortingData(column.ColumnName)" ng-if="column.ColumnVisible === true">
+                    {{column.ColumnDescription}}
+                    <i ng-class="{'pull-right fa fa-sort-up fa-lg':(vm.sortingColumn === column.ColumnName) &&
+                         (vm.reverseSort !== true), 'pull-right fa fa-sort-down fa-lg':(vm.sortingColumn === column.ColumnName)}">                        
+                    </i>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="p in tableData|orderBy:vm.sortingColumn:vm.reverseSort">
+                <td>
+                    <input type="checkbox" id="{{p[column[0].ColumnName]}}" ng-click="vm.getCheckedId(p[column[0].ColumnName])" ng-model="selected[p.productId]">
+                </td>
+                <td ng-if="column.ColumnVisible === true" ng-repeat="column in columnHeaders">
+                    {{p[column.ColumnName]}}
+                </td>                
+            </tr>
+        </tbody>
+    </table>
+</div>
