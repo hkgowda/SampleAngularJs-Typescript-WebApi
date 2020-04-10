@@ -20,8 +20,8 @@ namespace EMS.WebApi.Repository
                     EmployeeJoiningDate = new DateTime(),
                     EmployeeRole = "Software Engineer",
                     EmployeeSalary = 500000,
-                    EmployeePhoneNumber = 9019373838,
-                    EmployeeEmail = "harsha.gowda@oneadvanced.com"
+                    EmployeePhoneNumber = 9999977777,
+                    EmployeeEmail = "harsha.gowda@gmail.com"
                 },
                 new EmployeeModel()
                 {
@@ -31,8 +31,8 @@ namespace EMS.WebApi.Repository
                     EmployeeJoiningDate = new DateTime(),
                     EmployeeRole = "Software Engineer",
                     EmployeeSalary = 600000,
-                    EmployeePhoneNumber = 9019373838,
-                    EmployeeEmail = "suresh.kumar@oneadvanced.com"
+                    EmployeePhoneNumber = 9999977777,
+                    EmployeeEmail = "suresh.kumar@gmail.com"
                 },
                 new EmployeeModel()
                 {
@@ -42,8 +42,8 @@ namespace EMS.WebApi.Repository
                     EmployeeJoiningDate = new DateTime(),
                     EmployeeRole = "Software Engineer",
                     EmployeeSalary = 705000,
-                    EmployeePhoneNumber = 9019373838,
-                    EmployeeEmail = "abhi.bhat@oneadvanced.com"
+                    EmployeePhoneNumber = 9999977777,
+                    EmployeeEmail = "abhi.bhat@gmail.com"
                 },
                 new EmployeeModel()
                 {
@@ -53,8 +53,8 @@ namespace EMS.WebApi.Repository
                     EmployeeJoiningDate = new DateTime(),
                     EmployeeRole = "Software Engineer",
                     EmployeeSalary = 500000,
-                    EmployeePhoneNumber = 9019373838,
-                    EmployeeEmail = "vishwas.rai@oneadvanced.com"
+                    EmployeePhoneNumber = 9999977777,
+                    EmployeeEmail = "vishwas.rai@gmail.com"
                 }
             };
 
